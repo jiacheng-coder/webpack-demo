@@ -1,4 +1,4 @@
-import appStyle from './App.css'
+import appStyle from './App.less'
 
 function App() {
   const element = document.createElement('div')

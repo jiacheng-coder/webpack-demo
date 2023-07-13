@@ -73,6 +73,11 @@
   resolved "http://r.npm.sankuai.com/@types/estree/download/@types/estree-1.0.1.tgz#aa22750962f3bf0e79d753d3cc067f010c95f194"
   integrity sha1-qiJ1CWLzvw5511PTzAZ/AQyV8ZQ=
 
+"@types/html-minifier-terser@^6.0.0":
+  version "6.1.0"
+  resolved "http://r.npm.sankuai.com/@types/html-minifier-terser/download/@types/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
+  integrity sha1-T8M6AMHQwWmHsaIM+S0gYUxVrDU=
+
 "@types/json-schema@*", "@types/json-schema@^7.0.8", "@types/json-schema@^7.0.9":
   version "7.0.12"
   resolved "http://r.npm.sankuai.com/@types/json-schema/download/@types/json-schema-7.0.12.tgz#d70faba7039d5fca54c83c7dbab41051d2b6f6cb"
@@ -278,10 +283,34 @@ ajv@^8.0.0, ajv@^8.9.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+ansi-regex@^5.0.1:
+  version "5.0.1"
+  resolved "http://r.npm.sankuai.com/ansi-regex/download/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
+  integrity sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=
+
+ansi-styles@^4.1.0:
+  version "4.3.0"
+  resolved "http://r.npm.sankuai.com/ansi-styles/download/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
+  integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
+  dependencies:
+    color-convert "^2.0.1"
+
 big.js@^5.2.2:
   version "5.2.2"
   resolved "http://r.npm.sankuai.com/big.js/download/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
   integrity sha1-ZfCvOC9Xi83HQr2cKB6cstd2gyg=
+
+boolbase@^1.0.0:
+  version "1.0.0"
+  resolved "http://r.npm.sankuai.com/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
+  integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+braces@^3.0.2:
+  version "3.0.2"
+  resolved "http://r.npm.sankuai.com/braces/download/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
+  integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
+  dependencies:
+    fill-range "^7.0.1"
 
 browserslist@^4.14.5:
   version "4.21.8"
@@ -298,15 +327,38 @@ buffer-from@^1.0.0:
   resolved "http://r.npm.sankuai.com/buffer-from/download/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
   integrity sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U=
 
+camel-case@^4.1.2:
+  version "4.1.2"
+  resolved "http://r.npm.sankuai.com/camel-case/download/camel-case-4.1.2.tgz#9728072a954f805228225a6deea6b38461e1bd5a"
+  integrity sha1-lygHKpVPgFIoIlpt7qazhGHhvVo=
+  dependencies:
+    pascal-case "^3.1.2"
+    tslib "^2.0.3"
+
 caniuse-lite@^1.0.30001502:
   version "1.0.30001503"
   resolved "http://r.npm.sankuai.com/caniuse-lite/download/caniuse-lite-1.0.30001503.tgz#88b6ff1b2cf735f1f3361dc1a15b59f0561aa398"
   integrity sha1-iLb/Gyz3NfHzNh3BoVtZ8FYao5g=
 
+chalk@^4.1.0:
+  version "4.1.2"
+  resolved "http://r.npm.sankuai.com/chalk/download/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 chrome-trace-event@^1.0.2:
   version "1.0.3"
   resolved "http://r.npm.sankuai.com/chrome-trace-event/download/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha1-EBXs7UdB4V0GZkqVfbv1DQQeJqw=
+
+clean-css@^5.2.2:
+  version "5.3.2"
+  resolved "http://r.npm.sankuai.com/clean-css/download/clean-css-5.3.2.tgz#70ecc7d4d4114921f5d298349ff86a31a9975224"
+  integrity sha1-cOzH1NQRSSH10pg0n/hqMamXUiQ=
+  dependencies:
+    source-map "~0.6.0"
 
 clone-deep@^4.0.1:
   version "4.0.1"
@@ -316,6 +368,18 @@ clone-deep@^4.0.1:
     is-plain-object "^2.0.4"
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
+
+color-convert@^2.0.1:
+  version "2.0.1"
+  resolved "http://r.npm.sankuai.com/color-convert/download/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
+  integrity sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
+  dependencies:
+    color-name "~1.1.4"
+
+color-name@~1.1.4:
+  version "1.1.4"
+  resolved "http://r.npm.sankuai.com/color-name/download/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
+  integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
 
 colorette@^2.0.14:
   version "2.0.20"
@@ -331,6 +395,18 @@ commander@^2.20.0:
   version "2.20.3"
   resolved "http://r.npm.sankuai.com/commander/download/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+
+commander@^8.3.0:
+  version "8.3.0"
+  resolved "http://r.npm.sankuai.com/commander/download/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
+  integrity sha1-SDfqGy2me5xhamevuw+v7lZ7ymY=
+
+copy-anything@^2.0.1:
+  version "2.0.6"
+  resolved "http://r.npm.sankuai.com/copy-anything/download/copy-anything-2.0.6.tgz#092454ea9584a7b7ad5573062b2a87f5900fc480"
+  integrity sha1-CSRU6pWEp7etVXMGKyqH9ZAPxIA=
+  dependencies:
+    is-what "^3.14.1"
 
 cross-spawn@^7.0.3:
   version "7.0.3"
@@ -355,10 +431,78 @@ css-loader@^6.8.1:
     postcss-value-parser "^4.2.0"
     semver "^7.3.8"
 
+css-select@^4.1.3:
+  version "4.3.0"
+  resolved "http://r.npm.sankuai.com/css-select/download/css-select-4.3.0.tgz#db7129b2846662fd8628cfc496abb2b59e41529b"
+  integrity sha1-23EpsoRmYv2GKM/ElquytZ5BUps=
+  dependencies:
+    boolbase "^1.0.0"
+    css-what "^6.0.1"
+    domhandler "^4.3.1"
+    domutils "^2.8.0"
+    nth-check "^2.0.1"
+
+css-what@^6.0.1:
+  version "6.1.0"
+  resolved "http://r.npm.sankuai.com/css-what/download/css-what-6.1.0.tgz#fb5effcf76f1ddea2c81bdfaa4de44e79bac70f4"
+  integrity sha1-+17/z3bx3eosgb36pN5E55uscPQ=
+
 cssesc@^3.0.0:
   version "3.0.0"
   resolved "http://r.npm.sankuai.com/cssesc/download/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha1-N3QZGZA7hoVl4cCep0dEXNGJg+4=
+
+debug@^3.2.6:
+  version "3.2.7"
+  resolved "http://r.npm.sankuai.com/debug/download/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
+  integrity sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o=
+  dependencies:
+    ms "^2.1.1"
+
+dom-converter@^0.2.0:
+  version "0.2.0"
+  resolved "http://r.npm.sankuai.com/dom-converter/download/dom-converter-0.2.0.tgz#6721a9daee2e293682955b6afe416771627bb768"
+  integrity sha1-ZyGp2u4uKTaClVtq/kFncWJ7t2g=
+  dependencies:
+    utila "~0.4"
+
+dom-serializer@^1.0.1:
+  version "1.4.1"
+  resolved "http://r.npm.sankuai.com/dom-serializer/download/dom-serializer-1.4.1.tgz#de5d41b1aea290215dc45a6dae8adcf1d32e2d30"
+  integrity sha1-3l1Bsa6ikCFdxFptrorc8dMuLTA=
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.2.0"
+    entities "^2.0.0"
+
+domelementtype@^2.0.1, domelementtype@^2.2.0:
+  version "2.3.0"
+  resolved "http://r.npm.sankuai.com/domelementtype/download/domelementtype-2.3.0.tgz#5c45e8e869952626331d7aab326d01daf65d589d"
+  integrity sha1-XEXo6GmVJiYzHXqrMm0B2vZdWJ0=
+
+domhandler@^4.0.0, domhandler@^4.2.0, domhandler@^4.3.1:
+  version "4.3.1"
+  resolved "http://r.npm.sankuai.com/domhandler/download/domhandler-4.3.1.tgz#8d792033416f59d68bc03a5aa7b018c1ca89279c"
+  integrity sha1-jXkgM0FvWdaLwDpap7AYwcqJJ5w=
+  dependencies:
+    domelementtype "^2.2.0"
+
+domutils@^2.5.2, domutils@^2.8.0:
+  version "2.8.0"
+  resolved "http://r.npm.sankuai.com/domutils/download/domutils-2.8.0.tgz#4437def5db6e2d1f5d6ee859bd95ca7d02048135"
+  integrity sha1-RDfe9dtuLR9dbuhZvZXKfQIEgTU=
+  dependencies:
+    dom-serializer "^1.0.1"
+    domelementtype "^2.2.0"
+    domhandler "^4.2.0"
+
+dot-case@^3.0.4:
+  version "3.0.4"
+  resolved "http://r.npm.sankuai.com/dot-case/download/dot-case-3.0.4.tgz#9b2b670d00a431667a8a75ba29cd1b98809ce751"
+  integrity sha1-mytnDQCkMWZ6inW6Kc0bmICc51E=
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
 
 electron-to-chromium@^1.4.428:
   version "1.4.428"
@@ -370,7 +514,7 @@ emojis-list@^3.0.0:
   resolved "http://r.npm.sankuai.com/emojis-list/download/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha1-VXBmIEatKeLpFucariYKvf9Pang=
 
-enhanced-resolve@^5.15.0:
+enhanced-resolve@^5.0.0, enhanced-resolve@^5.15.0:
   version "5.15.0"
   resolved "http://r.npm.sankuai.com/enhanced-resolve/download/enhanced-resolve-5.15.0.tgz#1af946c7d93603eb88e9896cee4904dc012e9c35"
   integrity sha1-GvlGx9k2A+uI6Yls7kkE3AEunDU=
@@ -378,10 +522,22 @@ enhanced-resolve@^5.15.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
+entities@^2.0.0:
+  version "2.2.0"
+  resolved "http://r.npm.sankuai.com/entities/download/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
+  integrity sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
+
 envinfo@^7.7.3:
   version "7.8.1"
   resolved "http://r.npm.sankuai.com/envinfo/download/envinfo-7.8.1.tgz#06377e3e5f4d379fea7ac592d5ad8927e0c4d475"
   integrity sha1-Bjd+Pl9NN5/qesWS1a2JJ+DE1HU=
+
+errno@^0.1.1:
+  version "0.1.8"
+  resolved "http://r.npm.sankuai.com/errno/download/errno-0.1.8.tgz#8bb3e9c7d463be4976ff888f76b4809ebc2e811f"
+  integrity sha1-i7Ppx9Rjvkl2/4iPdrSAnrwugR8=
+  dependencies:
+    prr "~1.0.1"
 
 es-module-lexer@^1.2.1:
   version "1.3.0"
@@ -446,6 +602,13 @@ file-loader@^6.2.0:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
+fill-range@^7.0.1:
+  version "7.0.1"
+  resolved "http://r.npm.sankuai.com/fill-range/download/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
+  integrity sha1-GRmmp8df44ssfHflGYU12prN2kA=
+  dependencies:
+    to-regex-range "^5.0.1"
+
 find-up@^4.0.0:
   version "4.1.0"
   resolved "http://r.npm.sankuai.com/find-up/download/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
@@ -481,10 +644,61 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+he@^1.2.0:
+  version "1.2.0"
+  resolved "http://r.npm.sankuai.com/he/download/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
+  integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
+
+html-minifier-terser@^6.0.2:
+  version "6.1.0"
+  resolved "http://r.npm.sankuai.com/html-minifier-terser/download/html-minifier-terser-6.1.0.tgz#bfc818934cc07918f6b3669f5774ecdfd48f32ab"
+  integrity sha1-v8gYk0zAeRj2s2afV3Ts39SPMqs=
+  dependencies:
+    camel-case "^4.1.2"
+    clean-css "^5.2.2"
+    commander "^8.3.0"
+    he "^1.2.0"
+    param-case "^3.0.4"
+    relateurl "^0.2.7"
+    terser "^5.10.0"
+
+html-webpack-plugin@^5.5.3:
+  version "5.5.3"
+  resolved "http://r.npm.sankuai.com/html-webpack-plugin/download/html-webpack-plugin-5.5.3.tgz#72270f4a78e222b5825b296e5e3e1328ad525a3e"
+  integrity sha1-cicPSnjiIrWCWyluXj4TKK1SWj4=
+  dependencies:
+    "@types/html-minifier-terser" "^6.0.0"
+    html-minifier-terser "^6.0.2"
+    lodash "^4.17.21"
+    pretty-error "^4.0.0"
+    tapable "^2.0.0"
+
+htmlparser2@^6.1.0:
+  version "6.1.0"
+  resolved "http://r.npm.sankuai.com/htmlparser2/download/htmlparser2-6.1.0.tgz#c4d762b6c3371a05dbe65e94ae43a9f845fb8fb7"
+  integrity sha1-xNditsM3GgXb5l6UrkOp+EX7j7c=
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.0.0"
+    domutils "^2.5.2"
+    entities "^2.0.0"
+
+iconv-lite@^0.6.3:
+  version "0.6.3"
+  resolved "http://r.npm.sankuai.com/iconv-lite/download/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
+  integrity sha1-pS+AvzjaGVLrXGgXkHGYcaGnJQE=
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3.0.0"
+
 icss-utils@^5.0.0, icss-utils@^5.1.0:
   version "5.1.0"
   resolved "http://r.npm.sankuai.com/icss-utils/download/icss-utils-5.1.0.tgz#c6be6858abd013d768e98366ae47e25d5887b1ae"
   integrity sha1-xr5oWKvQE9do6YNmrkfiXViHsa4=
+
+image-size@~0.5.0:
+  version "0.5.5"
+  resolved "http://r.npm.sankuai.com/image-size/download/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
+  integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
 import-local@^3.0.2:
   version "3.1.0"
@@ -506,12 +720,22 @@ is-core-module@^2.11.0:
   dependencies:
     has "^1.0.3"
 
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "http://r.npm.sankuai.com/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
+
 is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "http://r.npm.sankuai.com/is-plain-object/download/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
   integrity sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc=
   dependencies:
     isobject "^3.0.1"
+
+is-what@^3.14.1:
+  version "3.14.1"
+  resolved "http://r.npm.sankuai.com/is-what/download/is-what-3.14.1.tgz#e1222f46ddda85dead0fd1c9df131760e77755c1"
+  integrity sha1-4SIvRt3ahd6tD9HJ3xMXYOd3VcE=
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -557,6 +781,28 @@ kind-of@^6.0.2:
   resolved "http://r.npm.sankuai.com/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
+less-loader@^11.1.3:
+  version "11.1.3"
+  resolved "http://r.npm.sankuai.com/less-loader/download/less-loader-11.1.3.tgz#1bb62d6ca9bf00a177c02793b54baac40f9be694"
+  integrity sha1-G7YtbKm/AKF3wCeTtUuqxA+b5pQ=
+
+less@^4.1.3:
+  version "4.1.3"
+  resolved "http://r.npm.sankuai.com/less/download/less-4.1.3.tgz#175be9ddcbf9b250173e0a00b4d6920a5b770246"
+  integrity sha1-F1vp3cv5slAXPgoAtNaSClt3AkY=
+  dependencies:
+    copy-anything "^2.0.1"
+    parse-node-version "^1.0.1"
+    tslib "^2.3.0"
+  optionalDependencies:
+    errno "^0.1.1"
+    graceful-fs "^4.1.2"
+    image-size "~0.5.0"
+    make-dir "^2.1.0"
+    mime "^1.4.1"
+    needle "^3.1.0"
+    source-map "~0.6.0"
+
 loader-runner@^4.2.0:
   version "4.3.0"
   resolved "http://r.npm.sankuai.com/loader-runner/download/loader-runner-4.3.0.tgz#c1b4a163b99f614830353b16755e7149ac2314e1"
@@ -578,10 +824,17 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash@^4.17.21:
+lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "http://r.npm.sankuai.com/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
+
+lower-case@^2.0.2:
+  version "2.0.2"
+  resolved "http://r.npm.sankuai.com/lower-case/download/lower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
+  integrity sha1-b6I3xj29xKgsoP2ILkci3F5jTig=
+  dependencies:
+    tslib "^2.0.3"
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -590,10 +843,26 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
+make-dir@^2.1.0:
+  version "2.1.0"
+  resolved "http://r.npm.sankuai.com/make-dir/download/make-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"
+  integrity sha1-XwMQ4YuL6JjMBwCSlaMK5B6R5vU=
+  dependencies:
+    pify "^4.0.1"
+    semver "^5.6.0"
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "http://r.npm.sankuai.com/merge-stream/download/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A=
+
+micromatch@^4.0.0:
+  version "4.0.5"
+  resolved "http://r.npm.sankuai.com/micromatch/download/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
+  integrity sha1-vImZp8u/d83InxMvbkZwUbSQkMY=
+  dependencies:
+    braces "^3.0.2"
+    picomatch "^2.3.1"
 
 mime-db@1.52.0:
   version "1.52.0"
@@ -607,6 +876,11 @@ mime-types@^2.1.27:
   dependencies:
     mime-db "1.52.0"
 
+mime@^1.4.1:
+  version "1.6.0"
+  resolved "http://r.npm.sankuai.com/mime/download/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
+  integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
+
 mini-css-extract-plugin@^2.7.6:
   version "2.7.6"
   resolved "http://r.npm.sankuai.com/mini-css-extract-plugin/download/mini-css-extract-plugin-2.7.6.tgz#282a3d38863fddcd2e0c220aaed5b90bc156564d"
@@ -614,20 +888,49 @@ mini-css-extract-plugin@^2.7.6:
   dependencies:
     schema-utils "^4.0.0"
 
+ms@^2.1.1:
+  version "2.1.3"
+  resolved "http://r.npm.sankuai.com/ms/download/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
+  integrity sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=
+
 nanoid@^3.3.6:
   version "3.3.6"
   resolved "http://r.npm.sankuai.com/nanoid/download/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha1-RDOAyFbW6fmCQmfZYLQjatWD6kw=
+
+needle@^3.1.0:
+  version "3.2.0"
+  resolved "http://r.npm.sankuai.com/needle/download/needle-3.2.0.tgz#07d240ebcabfd65c76c03afae7f6defe6469df44"
+  integrity sha1-B9JA68q/1lx2wDr65/be/mRp30Q=
+  dependencies:
+    debug "^3.2.6"
+    iconv-lite "^0.6.3"
+    sax "^1.2.4"
 
 neo-async@^2.6.2:
   version "2.6.2"
   resolved "http://r.npm.sankuai.com/neo-async/download/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
 
+no-case@^3.0.4:
+  version "3.0.4"
+  resolved "http://r.npm.sankuai.com/no-case/download/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
+  integrity sha1-02H9XJgA9VhVGoNp/A3NRmK2Ek0=
+  dependencies:
+    lower-case "^2.0.2"
+    tslib "^2.0.3"
+
 node-releases@^2.0.12:
   version "2.0.12"
   resolved "http://r.npm.sankuai.com/node-releases/download/node-releases-2.0.12.tgz#35627cc224a23bfb06fb3380f2b3afaaa7eb1039"
   integrity sha1-NWJ8wiSiO/sG+zOA8rOvqqfrEDk=
+
+nth-check@^2.0.1:
+  version "2.1.1"
+  resolved "http://r.npm.sankuai.com/nth-check/download/nth-check-2.1.1.tgz#c9eab428effce36cd6b92c924bdb000ef1f1ed1d"
+  integrity sha1-yeq0KO/842zWuSySS9sADvHx7R0=
+  dependencies:
+    boolbase "^1.0.0"
 
 p-limit@^2.2.0:
   version "2.3.0"
@@ -648,6 +951,27 @@ p-try@^2.0.0:
   resolved "http://r.npm.sankuai.com/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
 
+param-case@^3.0.4:
+  version "3.0.4"
+  resolved "http://r.npm.sankuai.com/param-case/download/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
+  integrity sha1-fRf+SqEr3jTUp32RrPtiGcqtAcU=
+  dependencies:
+    dot-case "^3.0.4"
+    tslib "^2.0.3"
+
+parse-node-version@^1.0.1:
+  version "1.0.1"
+  resolved "http://r.npm.sankuai.com/parse-node-version/download/parse-node-version-1.0.1.tgz#e2b5dbede00e7fa9bc363607f53327e8b073189b"
+  integrity sha1-4rXb7eAOf6m8NjYH9TMn6LBzGJs=
+
+pascal-case@^3.1.2:
+  version "3.1.2"
+  resolved "http://r.npm.sankuai.com/pascal-case/download/pascal-case-3.1.2.tgz#b48e0ef2b98e205e7c1dae747d0b1508237660eb"
+  integrity sha1-tI4O8rmOIF58Ha50fQsVCCN2YOs=
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
+
 path-exists@^4.0.0:
   version "4.0.0"
   resolved "http://r.npm.sankuai.com/path-exists/download/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
@@ -667,6 +991,16 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "http://r.npm.sankuai.com/picocolors/download/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=
+
+picomatch@^2.3.1:
+  version "2.3.1"
+  resolved "http://r.npm.sankuai.com/picomatch/download/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+  integrity sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=
+
+pify@^4.0.1:
+  version "4.0.1"
+  resolved "http://r.npm.sankuai.com/pify/download/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
+  integrity sha1-SyzSXFDVmHNcUCkiJP2MbfQeMjE=
 
 pkg-dir@^4.2.0:
   version "4.2.0"
@@ -725,6 +1059,19 @@ postcss@^8.4.21:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+pretty-error@^4.0.0:
+  version "4.0.0"
+  resolved "http://r.npm.sankuai.com/pretty-error/download/pretty-error-4.0.0.tgz#90a703f46dd7234adb46d0f84823e9d1cb8f10d6"
+  integrity sha1-kKcD9G3XI0rbRtD4SCPp0cuPENY=
+  dependencies:
+    lodash "^4.17.20"
+    renderkid "^3.0.0"
+
+prr@~1.0.1:
+  version "1.0.1"
+  resolved "http://r.npm.sankuai.com/prr/download/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
+  integrity sha1-0/wRS6BplaRexok/SEzrHXj19HY=
+
 punycode@^2.1.0:
   version "2.3.0"
   resolved "http://r.npm.sankuai.com/punycode/download/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
@@ -743,6 +1090,22 @@ rechoir@^0.8.0:
   integrity sha1-Sfhm4NMhRhQto62PDv81KzIV/yI=
   dependencies:
     resolve "^1.20.0"
+
+relateurl@^0.2.7:
+  version "0.2.7"
+  resolved "http://r.npm.sankuai.com/relateurl/download/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
+  integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
+
+renderkid@^3.0.0:
+  version "3.0.0"
+  resolved "http://r.npm.sankuai.com/renderkid/download/renderkid-3.0.0.tgz#5fd823e4d6951d37358ecc9a58b1f06836b6268a"
+  integrity sha1-X9gj5NaVHTc1jsyaWLHwaDa2Joo=
+  dependencies:
+    css-select "^4.1.3"
+    dom-converter "^0.2.0"
+    htmlparser2 "^6.1.0"
+    lodash "^4.17.21"
+    strip-ansi "^6.0.1"
 
 require-from-string@^2.0.2:
   version "2.0.2"
@@ -775,6 +1138,16 @@ safe-buffer@^5.1.0:
   resolved "http://r.npm.sankuai.com/safe-buffer/download/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
 
+"safer-buffer@>= 2.1.2 < 3.0.0":
+  version "2.1.2"
+  resolved "http://r.npm.sankuai.com/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+
+sax@^1.2.4:
+  version "1.2.4"
+  resolved "http://r.npm.sankuai.com/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
+
 schema-utils@^3.0.0, schema-utils@^3.1.1, schema-utils@^3.2.0:
   version "3.3.0"
   resolved "http://r.npm.sankuai.com/schema-utils/download/schema-utils-3.3.0.tgz#f50a88877c3c01652a15b622ae9e9795df7a60fe"
@@ -794,7 +1167,12 @@ schema-utils@^4.0.0:
     ajv-formats "^2.1.1"
     ajv-keywords "^5.1.0"
 
-semver@^7.3.8:
+semver@^5.6.0:
+  version "5.7.2"
+  resolved "http://r.npm.sankuai.com/semver/download/semver-5.7.2.tgz#48d55db737c3287cd4835e17fa13feace1c41ef8"
+  integrity sha1-SNVdtzfDKHzUg14X+hP+rOHEHvg=
+
+semver@^7.3.4, semver@^7.3.8:
   version "7.5.4"
   resolved "http://r.npm.sankuai.com/semver/download/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha1-SDmG7E7TjhxsSMNIlKkYLb/2im4=
@@ -840,15 +1218,29 @@ source-map-support@~0.5.20:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
-source-map@^0.6.0:
+source-map@^0.6.0, source-map@~0.6.0:
   version "0.6.1"
   resolved "http://r.npm.sankuai.com/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
+
+strip-ansi@^6.0.1:
+  version "6.0.1"
+  resolved "http://r.npm.sankuai.com/strip-ansi/download/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk=
+  dependencies:
+    ansi-regex "^5.0.1"
 
 style-loader@^3.3.3:
   version "3.3.3"
   resolved "http://r.npm.sankuai.com/style-loader/download/style-loader-3.3.3.tgz#bba8daac19930169c0c9c96706749a597ae3acff"
   integrity sha1-u6jarBmTAWnAyclnBnSaWXrjrP8=
+
+supports-color@^7.1.0:
+  version "7.2.0"
+  resolved "http://r.npm.sankuai.com/supports-color/download/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
+  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
+  dependencies:
+    has-flag "^4.0.0"
 
 supports-color@^8.0.0:
   version "8.1.1"
@@ -862,7 +1254,7 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "http://r.npm.sankuai.com/supports-preserve-symlinks-flag/download/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha1-btpL00SjyUrqN21MwxvHcxEDngk=
 
-tapable@^2.1.1, tapable@^2.2.0:
+tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"
   resolved "http://r.npm.sankuai.com/tapable/download/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha1-GWenPvQGCoLxKrlq+G1S/bdu7KA=
@@ -878,6 +1270,16 @@ terser-webpack-plugin@^5.3.7:
     serialize-javascript "^6.0.1"
     terser "^5.16.8"
 
+terser@^5.10.0:
+  version "5.19.0"
+  resolved "http://r.npm.sankuai.com/terser/download/terser-5.19.0.tgz#7b3137b01226bdd179978207b9c8148754a6da9c"
+  integrity sha1-ezE3sBImvdF5l4IHucgUh1Sm2pw=
+  dependencies:
+    "@jridgewell/source-map" "^0.3.3"
+    acorn "^8.8.2"
+    commander "^2.20.0"
+    source-map-support "~0.5.20"
+
 terser@^5.16.8:
   version "5.18.0"
   resolved "http://r.npm.sankuai.com/terser/download/terser-5.18.0.tgz#dc811fb8e3481a875d545bda247c8730ee4dc76b"
@@ -887,6 +1289,33 @@ terser@^5.16.8:
     acorn "^8.8.2"
     commander "^2.20.0"
     source-map-support "~0.5.20"
+
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "http://r.npm.sankuai.com/to-regex-range/download/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
+  dependencies:
+    is-number "^7.0.0"
+
+ts-loader@^9.4.3:
+  version "9.4.3"
+  resolved "http://r.npm.sankuai.com/ts-loader/download/ts-loader-9.4.3.tgz#55cfa7c28dd82a2de968ae45c3adb75fb888b27e"
+  integrity sha1-Vc+nwo3YKi3paK5Fw623X7iIsn4=
+  dependencies:
+    chalk "^4.1.0"
+    enhanced-resolve "^5.0.0"
+    micromatch "^4.0.0"
+    semver "^7.3.4"
+
+tslib@^2.0.3, tslib@^2.3.0:
+  version "2.6.0"
+  resolved "http://r.npm.sankuai.com/tslib/download/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
+  integrity sha1-spWFRoTb2hZOGB0lmiLNd53Ne8M=
+
+typescript@^5.1.6:
+  version "5.1.6"
+  resolved "http://r.npm.sankuai.com/typescript/download/typescript-5.1.6.tgz#02f8ac202b6dad2c0dd5e0913745b47a37998274"
+  integrity sha1-AvisICttrSwN1eCRN0W0ejeZgnQ=
 
 update-browserslist-db@^1.0.11:
   version "1.0.11"
@@ -907,6 +1336,11 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "http://r.npm.sankuai.com/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+utila@~0.4:
+  version "0.4.0"
+  resolved "http://r.npm.sankuai.com/utila/download/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
+  integrity sha1-ihagXURWV6Oupe7MWxKk+lN5dyw=
 
 watchpack@^2.4.0:
   version "2.4.0"
